@@ -46,7 +46,7 @@ function NavBar() {
             <span className="navbar-text">
                 <div className="social-icon">
                     <a href="https://www.linkedin.com/in/jovanna-jimenez-profile24/"><img src={navIcon1} alt="LinkedIn"/></a>
-                    <a href="https://www.facebook.com/jovanna.jimenez1/"><img src={navIcon2} alt="Facebook"/></a>
+                    <a href="https://github.com/jovanna24"><img src={navIcon2} alt="Facebook"/></a>
                     <a href="https://www.instagram.com/jovanna_g24/"><img src={navIcon3} alt="Instagram"/></a>
                 </div> 
                 <a href="#contact"><button className="vvd" type="button"><span>Let's Connect!</span></button></a>

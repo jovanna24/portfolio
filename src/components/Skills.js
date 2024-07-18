@@ -4,13 +4,13 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/images/meter1.svg";
 import meter2 from "../assets/images/meter2.svg";
 import meter3 from "../assets/images/meter3.svg"; 
-import colorSharp from "../assets/images/color-sharp.png"; 
+// import colorSharp from "../assets/images/color-sharp.png"; 
 
 
 export const Skills = () => { 
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
+
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -37,31 +37,31 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2> 
-                        <p> Skills information
+                        <p> More to Come!
                         </p> 
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="meter1" />
-                                <h5>Web Development</h5>
+                                <h5>React</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter2" />
-                                <h5>Brand Identity</h5>
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="meter3" />
-                                <h5>Logo Design</h5>
+                                <h5>Bootstrap</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="meter1" />
-                                <h5>Web Development</h5>
+                                <h5>MongoDb</h5>
                             </div>
                         </Carousel>
                     </div>
                     </Col>
                 </Row>
             </Container> 
-            <img className="background-image-left" src={colorSharp} alt="circle-gradient" />
+            {/* <img className="background-image-left" src={colorSharp} alt="circle-gradient" /> */}
         </section>
       )
 }

@@ -15,13 +15,6 @@ export const Banner = () => {
     // Time between transition between each word 
     const period = 2000; 
 
-    useEffect(()=> {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta) 
-        return () => { clearInterval(ticker)};
-    }, [text]);
-
     const tick = () => {
         let i = loopNum % toRotate.length; 
         let fullText = toRotate[i]; 
@@ -42,6 +35,15 @@ export const Banner = () => {
             setDelta(500);
         }
     }
+
+
+    useEffect(()=> {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta) 
+        return () => { clearInterval(ticker)};
+    },);
+
 
     return (
         <section className="banner" id="home">
