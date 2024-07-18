@@ -55,7 +55,8 @@ export const Banner = () => {
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Welcome to my Portfolio</span> 
                             <h1>{`Hi I'm Jovanna, `}<span className="wrap">{text}</span></h1> 
-                            <p>About ME</p> 
+                            <p>Hi! I'm a fullstack software engineering student looking to join a new team.</p> 
+                            <p>I'm also a coffee lover and die-hard Dodgers fan ⚾️</p>
                             <a href="#contact"><button >Let's connect<ArrowRightCircle size ={25} /></button></a>
                             </div>
                         }
