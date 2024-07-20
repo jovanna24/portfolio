@@ -3,6 +3,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import projImg1 from '../assets/images/project-img1.png';
 import projImg2 from '../assets/images/project-img2.png';
 import projImg3 from '../assets/images/project-img3.png';
+import projImg4 from '../assets/images/project-img4.png';
 import colorSharp2 from '../assets/images/color-sharp2.png';
 
 export const Projects = () => {
@@ -24,6 +25,12 @@ export const Projects = () => {
       description: 'Bootstrap & APIs',
       imgUrl: projImg3,
       link: 'https://jovanna24.github.io/weather_dashboard/',
+    },
+    {
+      title: 'Text Editor PWA',
+      description: 'PWA',
+      imgUrl: projImg4,
+      link: 'https://jovanna24.github.io/task-board_3rd_party_APIs/',
     },
   ];
 
