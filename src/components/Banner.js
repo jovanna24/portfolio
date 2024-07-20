@@ -54,9 +54,14 @@ export const Banner = () => {
                         {({ isVisible }) =>
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Welcome to my Portfolio</span> 
-                            <h1>{`Hi I'm Jovanna, `}<span className="wrap">{text}</span></h1> 
-                            <p>Hi! I'm a full-stack software engineering student looking to join a new team.</p> 
-                            <p>I'm also a coffee lover and die-hard Dodgers fan ⚾️</p>
+                            <h1>{`Hi I'm Jovanna, `}<span className="wrap">{text}</span></h1>
+                            <h2>{ ' ' }</h2> 
+                            <p>
+                            Hello! I'm Jovanna Jimenez, currently pursuing a Master of Public Health at Touro University California.
+                            </p>
+                            <p>
+                            I'm passionate about software engineering and currently enrolled in a Fullstack-Software Engineering Bootcamp at Arizona State University. As a prior EMT and Physician Assistant student, I thrive in fast-paced environments where teamwork and problem-solving are essential. When not coding, I enjoy a good cup of coffee and rooting for the Dodgers!
+                            </p>
                             <a href="#contact"><button >Let's connect<ArrowRightCircle size ={25} /></button></a>
                             </div>
                         }
